@@ -25,7 +25,7 @@ spec:
           name: redis-data
         resources:
           limits:
-            cpu: "1"
+            cpu: "0.5"
             memory: "256Mi"
           requests:
             cpu: "0.1"
