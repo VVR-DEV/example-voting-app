@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: examplevotingapp_vote:nodebug2
+      - image: examplevotingapp_vote:nodebug3
         imagePullPolicy: Never
         name: vote
         ports:
