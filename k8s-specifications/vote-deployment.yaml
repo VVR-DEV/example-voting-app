@@ -15,8 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: examplevotingapp_vote:nodebug3
-        imagePullPolicy: Never
+      - image: dockersamples/examplevotingapp_vote
         name: vote
         ports:
         - containerPort: 80
